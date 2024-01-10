@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  @apply bg-slate-100 shadow-md w-96 h-80 border rounded-lg m-3 p-3;
+}

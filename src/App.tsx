@@ -1,5 +1,9 @@
-function App() {
-  return <div>test</div>;
-}
+import { ListOfCards } from "./components/ListOfCards";
 
-export default App;
+export default function App() {
+  return (
+    <div className="App">
+      <ListOfCards />
+    </div>
+  );
+}
